@@ -1,0 +1,89 @@
+.product-page-card-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Pacifico", cursive;
+  padding: 1em 0;
+}
+
+.product-page-card {
+    margin-top: 6em;
+}
+
+.product-page-card img {
+  object-fit: contain;
+  max-height: 260px;
+}
+
+.chip {
+  font-size: 18px;
+  color: #FDF6EB;
+}
+
+.mat-card  {
+  background: #424242;
+  color: #fff;
+}
+
+.mat-select-panel {
+  background: #424242;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  border-radius: 4px 4px 0 0;
+  padding: .75em .75em 0 .75em;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: rgba(255,255,255,.1);
+}
+.mat-form-field-flex {
+  display: inline-flex;
+  align-items: baseline;
+  box-sizing: border-box;
+  width: 100%;
+}
+.mat-option {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 16px;
+  text-align: left;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.mat-option.mat-active {
+  background: rgba(255,255,255,.04);
+  color: #fff;
+}
+
+.mat-select-panel .mat-optgroup-label, .mat-select-panel .mat-option {
+    font-size: inherit;
+    line-height: 3em;
+    height: 3em;
+}
+
+.mat-option-text {
+  display: inline-block;
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (min-width: 900px) {
+  .product-page-card img {
+    object-fit: contain;
+  }
+
+  .chip:hover {
+    cursor: pointer;
+}
+
+}
